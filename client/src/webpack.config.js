@@ -19,7 +19,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ["react-hot", 'babel?' + JSON.stringify(
+        loaders: ['babel?' + JSON.stringify(
           {
             presets: ['react', 'es2015'],
             "plugins": [
